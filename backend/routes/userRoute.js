@@ -10,7 +10,6 @@ userRouter.post('/login',loginUser)
 
 userRouter.get('/get-profile',authUser,getProfile)
 userRouter.post('/update-profile',upload.single('image'),authUser,updateProfile)
-// userRouter.post('/update-profile', authUser, upload.single('image'), updateProfile)
 userRouter.post('/book-appointment',authUser,bookAppointment)
 userRouter.get('/appointments',authUser,listAppointment)
 userRouter.post('/cancel-appointment',authUser,cancelAppoitment)

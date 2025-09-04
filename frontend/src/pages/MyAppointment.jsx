@@ -42,7 +42,6 @@ const MyAppointment = () => {
 
     try {
 
-      // console.log(appointmentId)
       const {data} = await axios.post(backendUrl + '/api/user/cancel-appointment', {appointmentId},{headers:{token}})
       if (data.success) {
         toast.success(data.message)
@@ -100,7 +99,6 @@ const MyAppointment = () => {
       const {data} = await axios.post(backendUrl+'/api/user/payment-razorpay',{appointmentId},{headers:{token}})
 
       if (data.success) {
-        // console.log(data.order);
 
         initPay(data.order)
         

@@ -88,7 +88,6 @@ const loginAdmin = async (req, res) => {
     }
 }
 
-// Working on a Admin controller time stamp 07:58:07
 // API to get all doctors list for admin panel
 const allDoctors = async (req, res) => {
     try {

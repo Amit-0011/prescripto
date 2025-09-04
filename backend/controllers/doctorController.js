@@ -67,8 +67,6 @@ const loginDoctor = async (req,res) => {
 const appointmentsDoctor = async (req,res) => {
     try {
 
-        // const {docId} = req.body // this is give error
-        // const docId = req.body?.docId; // this is working
         const docId = req.docId;
         const appointments = await appointmentModel.find({docId})
 

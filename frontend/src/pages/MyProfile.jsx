@@ -8,20 +8,6 @@ const MyProfile = () => {
   const { userData, setUserData, token, backendUrl, loadUserProfileData } =
     useContext(AppContext);
 
-  // // this data is for testing purpose
-  // const [userData,setUserData] = useState({
-  //   name: "Edward Vincent",
-  //   image: assets.profile_pic,
-  //   email: "richardjameswap@gmail.com",
-  //   phone: "+1  123 456 7890",
-  //   address: {
-  //     line1: "57th Cross, Richmond",
-  //     line2: "Circle, Church Road, London"
-  //   },
-  //   gender: "Male",
-  //   dob: "2000-01-20"
-  // })
-
   const [isEdit, setIsEdit] = useState(false);
   const [image, setImage] = useState(false);
 
@@ -124,7 +110,6 @@ const MyProfile = () => {
             <p className="font-medium">Address:</p>
             {isEdit ? (
               <p>
-                {/* <input className='bg-gray-50' onChange={(e) => setUserData(prev => ({...prev, address, line1: e.target.value}))} value={userData.address.line1} type="text" /> */}
                 <input
                   className="bg-gray-50"
                   onChange={(e) =>
@@ -141,7 +126,6 @@ const MyProfile = () => {
                 />
 
                 <br />
-                {/* <input className='bg-gray-50' onChange={(e) => setUserData(prev => ({...prev, address, line2: e.target.value}))} value={userData.address.line2} type="text" /> */}
                 <input
                   className="bg-gray-50"
                   onChange={(e) =>
