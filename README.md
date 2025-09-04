@@ -1,1 +1,1 @@
-[Live Link](https://prescripto-fphf.vercel.app/)
+Live Link: https://prescripto-fphf.vercel.app/
