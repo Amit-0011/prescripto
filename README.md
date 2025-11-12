@@ -29,8 +29,6 @@ All parts of the project (frontend, backend, and admin panel) are **hosted on Ve
 - ✅ **RESTful API** powered by Express.js  
 - ✅ **Fully deployed** on Vercel for seamless performance  
 
----
-
 ## 🌐 Deployment
 
 - **Frontend:** Hosted on [Vercel](https://vercel.com/)  
