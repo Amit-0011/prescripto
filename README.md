@@ -184,3 +184,36 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
 CURRENCY=INR
 ```
+
+📸 Application Screenshots
+
+Below are key UI screens from the Prescripto platform, covering patient, admin, and doctor workflows.
+
+<p align="center">
+  <img src="frontend/public/1.png" alt="Home Page" width="85%" />
+</p>
+<p align="center">
+  <em>Landing page allowing patients to browse doctors and book appointments easily.</em>
+</p>
+
+<p align="center">
+  <img src="frontend/public/2.png" alt="Doctors by Specialty" width="85%" />
+</p>
+<p align="center">
+  <em>Doctor listing with specialization-based filtering and real-time availability.</em>
+</p>
+
+<p align="center">
+  <img src="frontend/public/3.png" alt="Top Doctors" width="85%" />
+</p>
+<p align="center">
+  <em>Admin dashboard showing total doctors, patients, appointments, and recent activity.</em>
+</p>
+
+<p align="center">
+  <img src="frontend/public/6.png" alt="Doctor Profile" width="85%" />
+</p>
+<p align="center">
+  <em>Doctor profile page displaying qualifications, experience, availability, and fees.</em>
+</p>
+
