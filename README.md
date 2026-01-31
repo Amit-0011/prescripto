@@ -125,8 +125,6 @@ All protected routes are secured at the API level.
 - **Admin / Server Interface:**  
   https://prescripto-wvls.vercel.app  
 
-> Admin access is restricted and credentials are not publicly exposed.
-
 ---
 
 ## 🧪 Local Development
