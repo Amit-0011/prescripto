@@ -117,16 +117,6 @@ All protected routes are secured at the API level.
 
 ---
 
-## 🔗 Live Applications
-
-- **Client App:**  
-  https://prescripto-fphf.vercel.app  
-
-- **Admin / Server Interface:**  
-  https://prescripto-wvls.vercel.app  
-
----
-
 ## 🧪 Local Development
 
 ### Prerequisites
